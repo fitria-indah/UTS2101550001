@@ -47,7 +47,17 @@ INSERT INTO cosmetics (name, brand, price, stock) VALUES
 ('Eyeshadow Palette', 'MAC', 250000, 15);
 
 
-![Screenshot 2024-11-03 122204](https://github.com/user-attachments/assets/c7eb74cb-d90e-4cf6-8287-28969bb054cf)
+# Project Title
+
+![Alt Text for Image](https://github.com/user-attachments/assets/c7eb74cb-d90e-4cf6-8287-28969bb054cf)
+
+Description of the image or project.
+
+## How to Use
+
+Instructions about the project, etc.
+
+
 
 
 
