@@ -332,9 +332,3 @@ json
     }
 }
 
-## 🚀 About Me
-I'm a full stack developer...
-By Kiming - Informatika Angkatan 23
-
-
-Thanks to
