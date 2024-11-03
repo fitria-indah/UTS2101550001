@@ -246,7 +246,7 @@ Masukkan:
 ### PUT `/api/[objek]/{id}`
 A. Mengupdate data berdasarkan ID
 - Method: PUT
-- URL: http://localhost/comestic/comestic.php/3 (asumsikan ID menus baru adalah 4)
+- URL: http://localhost/comestic/comestic.php/3 (asumsikan ID menus baru adalah 3)
 - Headers:
    - Key: Content-Type
    - Value: application/json
