@@ -22,8 +22,17 @@ Buatlah Web Service REST untuk sistem manajemen sesuai objek yang ditentukan men
 2. Buat database baru bernama culinary
 3. Pilih database culinary, lalu buka tab SQL
 4. Jalankan query SQL berikut untuk membuat tabel dan menambahkan data sampel:
-   
-   CREATE TABLE cosmetics (
+
+   # Cosmetics Database SQL Script
+
+This SQL script creates a `cosmetics` table and inserts some sample data.
+
+## SQL Code
+
+Below is the SQL code to create and populate the `cosmetics` table.
+
+```sql
+CREATE TABLE cosmetics (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL,
   brand VARCHAR(255) NOT NULL,
@@ -36,6 +45,10 @@ INSERT INTO cosmetics (name, brand, price, stock) VALUES
 ('Foundation', 'Revlon', 150000, 30),
 ('Mascara', 'L''Oreal', 80000, 20),
 ('Eyeshadow Palette', 'MAC', 250000, 15);
+
+
+![Screenshot 2024-11-03 122204](https://github.com/user-attachments/assets/c7eb74cb-d90e-4cf6-8287-28969bb054cf)
+
 
 
 ### Spesifikasi Teknis
@@ -79,3 +92,5 @@ json
         // Data response
     }
 }
+
+
