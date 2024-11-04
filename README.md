@@ -15,7 +15,7 @@ Buatlah Web Service REST untuk sistem manajemen sesuai objek yang ditentukan men
 ## LANGKAH-LANGKAH
 ### 1. Persiapan Bahan Tools
 1. Buka XAMPP lalu klik start pada Apache dan mySQL
-2. Buat folder baru bernama rest_menus di dalam direktori htdocs XAMPP
+2. Buat folder baru bernama comestics di dalam direktori htdocs XAMPP
 
 ### 2. Membuat Database
 1. Buka php My Admin (http://localhost/phpmyadmin)
@@ -51,8 +51,8 @@ INSERT INTO cosmetics (name, brand, price, stock) VALUES
 
 ### 3. Membuat file PHP untuk Web Service
 1. Buka vs code
-2. Buat file baru dan simpan sebagai `menus_api.php` di dalam folder `cosmetics`.
-3. Salin dan tempel kode berikut dalam `menus_api.php`:
+2. Buat file baru dan simpan sebagai `comestics.php` di dalam folder `cosmetics`.
+3. Salin dan tempel kode berikut dalam `comestics.php`:
 
 ```sql
 <?php
@@ -177,7 +177,7 @@ switch ($method) {
  Menampilkan semua data
 
 Method: GET
-URL: http://localhost/rest_menus/menus_api.php/3
+URL: http://localhost/comestic/comestic.php
 
 Klik *"Send"*
 
