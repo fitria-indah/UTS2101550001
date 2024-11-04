@@ -2,6 +2,7 @@
 Tugas UTS MATKUL WebService
 #### Nama Fitria Indah Mutia Rini
 #### NIM : 21.01.55.0001
+#### Tujuan : Membuat dan menguji web service REST untuk manajemen cosmetics AlaMutea menggunakan PHP dan MySQL.
 #### Tema : Komestik/Comestics
 #### Tabel cosmetics AlaMutea
 - id (PK)
