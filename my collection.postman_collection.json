@@ -1,0 +1,361 @@
+{
+	"info": {
+		"_postman_id": "4aa04250-027c-4df5-b349-727f596cde9d",
+		"name": "my collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39464691"
+	},
+	"item": [
+		{
+			"name": "http://localhost/comestic/comestic.php/8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Noola Dew Moisturizer\",\r\n    \"brand\": \"Glad2Glow\",\r\n    \"price\": \"30000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php/3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Noola Dew Moisturizer\",\r\n    \"brand\": \"Glad2Glow\",\r\n    \"price\": \"30000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Makeup Remover\",\r\n    \"brand\": \"SoftTouch\",\r\n    \"price\": \"40000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Makeup Remover\",\r\n    \"brand\": \"SoftTouch\",\r\n    \"price\": \"40000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Makeup Remover\",\r\n    \"brand\": \"SoftTouch\",\r\n    \"price\": \"40000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Makeup Remover\",\r\n    \"brand\": \"SoftTouch\",\r\n    \"price\": \"40000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php/id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Makeup Remover\",\r\n    \"brand\": \"SoftTouch\",\r\n    \"price\": \"40000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php/id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php",
+						"id"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php/search?tems= lipstick+matte",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Makeup Remover\",\r\n    \"brand\": \"SoftTouch\",\r\n    \"price\": \"40000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php/search?tems= lipstick+matte",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php",
+						"search"
+					],
+					"query": [
+						{
+							"key": "tems",
+							"value": " lipstick+matte"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php/search?tems=lipstick+matte",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Makeup Remover\",\r\n    \"brand\": \"SoftTouch\",\r\n    \"price\": \"40000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php/search?tems=lipstick+matte",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php",
+						"search"
+					],
+					"query": [
+						{
+							"key": "tems",
+							"value": "lipstick+matte"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php/search?tems= ",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Makeup Remover\",\r\n    \"brand\": \"SoftTouch\",\r\n    \"price\": \"40000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php/search?tems= ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php",
+						"search"
+					],
+					"query": [
+						{
+							"key": "tems",
+							"value": " "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/comestic/comestic.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"name\": \"Makeup Remover\",\r\n    \"brand\": \"SoftTouch\",\r\n    \"price\": \"40000.00\",\r\n    \"stock\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/comestic/comestic.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"comestic",
+						"comestic.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
