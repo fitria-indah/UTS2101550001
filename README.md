@@ -19,8 +19,8 @@ Buatlah Web Service REST untuk sistem manajemen sesuai objek yang ditentukan men
 
 ### 2. Membuat Database
 1. Buka php My Admin (http://localhost/phpmyadmin)
-2. Buat database baru bernama culinary
-3. Pilih database culinary, lalu buka tab SQL
+2. Buat database baru bernama Beauty Cosmetics
+3. Pilih database Beauty Cosmetics, lalu buka tab SQL
 4. Jalankan query SQL berikut untuk membuat tabel dan menambahkan data sampel:
 
    # Cosmetics Database SQL Script
@@ -187,7 +187,7 @@ http://localhost/comestic/comestic.php
 ![image](https://github.com/user-attachments/assets/12ce487f-5be7-48ec-8f91-780a5340b33e)
 
 #### *GET* `/api/[objek]/{id}`
-A. Menampilkan detail data berdasarkan ID
+ Menampilkan detail data berdasarkan ID
 
 Method: GET
 URL: http://localhost/comestic/comestic.php/3
@@ -196,7 +196,6 @@ Klik *"Send"*
 
 ![image](https://github.com/user-attachments/assets/62409a86-c67f-47b8-8e9c-d8b16778098f)
 
-B. Response 404 jika data tidak ditemukan
 
 ### *POST* `/api/[objek]`
 A. Menambah data baru
@@ -244,7 +243,7 @@ Masukkan:
 - Akan menghasilkan eror karena category tidak valid/tidak diisi
 
 ### PUT `/api/[objek]/{id}`
-A. Mengupdate data berdasarkan ID
+Mengupdate data berdasarkan ID
 - Method: PUT
 - URL: http://localhost/comestic/comestic.php/3 (asumsikan ID menus baru adalah 3)
 - Headers:
@@ -277,18 +276,16 @@ menjadi 👇 👇 👇
 KLIK "SEND"
 ![image](https://github.com/user-attachments/assets/8c8b2774-480a-48b8-a0fb-3d6de18f9527)
 
-B. Validasi input c. Response 404 jika data tidak ditemukan
 
 ### DELETE `/api/[objek]/{id}`
 
-A. Menghapus data berdasarkan ID
+Menghapus data berdasarkan ID
 
 - Method: DELETE
 - URL: http://localhost/comestic/comestic.php/8 (untuk menghapus data item komestik dengan ID 8)
 - Klik "Send"
 ![image](https://github.com/user-attachments/assets/c51d8cbd-f1cc-4d4f-bdda-8b5f26d4a2dd)
 
-B. response 404 jika data tidak ditemukan
 
 ### Spesifikasi Teknis
 
